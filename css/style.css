@@ -26,9 +26,13 @@ img {
     width: 100%;
 }
 
-a {
-    text-decoration: none;
+a,
+button {
     color: inherit;
+    font: inherit;
+    text-decoration: none;
+    -webkit-appearance: none;
+    appearance: none;
 }
 
 section {
@@ -1727,41 +1731,4 @@ body.modal-open {
     z-index: 30;
     background: transparent;
     backdrop-filter: none;
-}
-
-.output-item,
-.output-item:link,
-.output-item:visited,
-.output-item:hover,
-.output-item:active,
-.project-card,
-.project-card:link,
-.project-card:visited,
-.project-card:hover,
-.project-card:active {
-    color: inherit;
-}
-
-.output-item,
-.output-item *,
-.project-card,
-.project-card * {
-    color: inherit !important;
-    -webkit-text-fill-color: currentColor;
-}
-
-.output-meta,
-.project-year {
-    color: #888 !important;
-    -webkit-text-fill-color: #888;
-}
-
-.output-title,
-.project-title {
-    color: inherit !important;
-}
-
-.output-main,
-.project-body {
-    color: inherit !important;
 }
