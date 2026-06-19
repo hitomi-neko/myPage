@@ -1728,3 +1728,18 @@ body.modal-open {
     background: transparent;
     backdrop-filter: none;
 }
+
+.output-item,
+.output-item:link,
+.output-item:visited,
+.output-item:hover,
+.output-item:active,
+.project-card,
+.project-card:link,
+.project-card:visited,
+.project-card:hover,
+.project-card:active,
+.output-title,
+.project-title {
+    color: inherit;
+}
