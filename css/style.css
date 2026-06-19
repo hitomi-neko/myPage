@@ -1750,6 +1750,12 @@ body.modal-open {
     -webkit-text-fill-color: currentColor;
 }
 
+.output-meta,
+.project-year {
+    color: #888 !important;
+    -webkit-text-fill-color: #888;
+}
+
 .output-title,
 .project-title {
     color: inherit !important;
