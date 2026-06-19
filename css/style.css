@@ -27,12 +27,19 @@ img {
 }
 
 a,
+a:link,
+a:visited,
+a:hover,
+a:active,
 button {
     color: inherit;
-    font: inherit;
     text-decoration: none;
-    -webkit-appearance: none;
+}
+
+button {
+    font: inherit;
     appearance: none;
+    -webkit-appearance: none;
 }
 
 section {
