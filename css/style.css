@@ -37,7 +37,10 @@ button {
 }
 
 button {
-    font: inherit;
+    font-family: maru-maru-gothic-blr-stdn, sans-serif;
+}
+
+button {
     appearance: none;
     -webkit-appearance: none;
 }
