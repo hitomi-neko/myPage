@@ -308,6 +308,10 @@ h1 {
     animation: scrollDown 4.5s ease-in-out infinite;
 }
 
+#readmore {
+    color: #fff;
+}
+
 @keyframes scrollDown {
 
     0%,
