@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hitomi Miyazaki</title>
+
+    <!-- Adobe Fonts -->
+    <script>
+        (function (d) {
+            var config = {
+                kitId: 'hex1ktx',
+                scriptTimeout: 3000,
+                async: true
+            },
+                h = d.documentElement,
+                t = setTimeout(function () {
+                    h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+                }, config.scriptTimeout),
+                tk = d.createElement("script"),
+                f = false,
+                s = d.getElementsByTagName("script")[0],
+                a;
+
+            h.className += " wf-loading";
+            tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+            tk.async = true;
+
+            tk.onload = tk.onreadystatechange = function () {
+                a = this.readyState;
+                if (f || a && a != "complete" && a != "loaded") return;
+                f = true;
+                clearTimeout(t);
+                try {
+                    Typekit.load(config);
+                } catch (e) { }
+            };
+
+            s.parentNode.insertBefore(tk, s);
+        })(document);
+    </script>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/favicon.ico" id="favicon">
+</head>
+
+<body>
+    <div class="page-loader" id="page-loader" aria-hidden="true">
+        <div class="loader-inner">
+            <span class="loader-icon"></span>
+            <span>LOADING</span>
+        </div>
+    </div>
+    <nav class="page-nav">
+        <a href="#home" class="active"><span></span>Top</a>
+        <a href="#r-outputs"><span></span>Research</a>
+        <a href="#projectswork"><span></span>Project</a>
+        <a href="#profile"><span></span>Profile</a>
+        <a href="#contactform"><span></span>contact</a>
+    </nav>
+
+    <header class="hero" id="home">
+
+        <div class="profile">
+
+            <img src="img/icon.jpg" alt="Hitomi Miyazaki" class="icon">
+
+            <h1>
+                宮崎 仁美
+                <span>Hitomi Miyazaki</span>
+            </h1>
+
+            <p class="affiliation">
+                東京都立大学大学院<br>
+                システムデザイン研究科 博士後期課程
+            </p>
+
+            <p class="keyword">
+                <strong>研究キーワード</strong><br>
+                シリアスゲーム ・ ゲーミフィケーション・ <br> Human Computer Interaction ・ 起立性調節障害
+            </p>
+
+            <div class="links">
+                <a href="https://researchmap.jp/miyazaki-hitomi" target="_blank" rel="noopener">ResearchMap
+                    <span class="external-icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M14 5H19V10" />
+                            <path d="M10 14L19 5" />
+                            <path d="M19 14V19H5V5H10" />
+                        </svg>
+                    </span>
+                </a>
+                <a href="https://orcid.org/0000-0002-5998-5524" target="_blank" rel="noopener">ORCID
+                    <span class="external-icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M14 5H19V10" />
+                            <path d="M10 14L19 5" />
+                            <path d="M19 14V19H5V5H10" />
+                        </svg>
+                    </span>
+                </a>
+                <a href="https://www.instagram.com/hitomi_neko_0211?utm_source=qr" target="_blank"
+                    rel="noopener">Instagram
+                    <span class="external-icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M14 5H19V10" />
+                            <path d="M10 14L19 5" />
+                            <path d="M19 14V19H5V5H10" />
+                        </svg>
+                    </span></a>
+            </div>
+
+        </div>
+
+        <div class="featured">
+
+            <div class="slider">
+                <h2 class="slider-title">Featured Research</h2>
+                <button class="prev">&#10094;</button>
+                <div class="slides">
+                    <img src="img/01.png" alt="">
+                    <img src="img/game.png" alt="">
+                    <img src="img/screen1.png" alt="">
+                    <img src="img/screen2.png" alt="">
+                </div>
+                <button class="next">&#10095;</button>
+                <div class="indicator">
+                    <span class="active"></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
+            <p class="lead">
+                ゲームを用いて、起立性調節障害を持つ方々の症状改善をお手伝いしています。<br>
+                ゲームには実際の治療で用いられる運動を取り入れています。
+            </p>
+
+            <a href="featured.html" class="button">
+                Read More
+            </a>
+
+        </div>
+
+        <div class="scroll-down">
+            <span class="scroll-text">SCROLL DOWN</span>
+            <span class="scroll-arrow"></span>
+        </div>
+
+    </header>
+
+    <main>
+        <section class="publications" id="r-outputs">
+            <h2 class="section-title">Research Outputs</h2>
+            <p class="outputs-summary">
+                査読付き論文誌 1件（筆頭著者1件），国際会議発表 3件（筆頭著者3件），国内会議発表 9件（筆頭著者4件），受賞 5件
+            </p>
+            <div class="output-group">
+                <h3>論文誌</h3> <button class="output-item" data-research-modal="journal-00"> <span
+                        class="output-year">2025</span>
+                    <span class="output-main"> <span class="output-title">起立性調節障害患者を対象にした運動への意識向上のためのシリアスゲーム開発</span>
+                        <span class="output-meta">宮崎 仁美, 阪口 紗季, 栗原 渉, 韓 旭, 串山 久美子 /
+                            情報処理学会論文誌 / Vol.66, No.12, p.1794-1807</span> </span>
+                    <div class="output-tags"><span class="output-tag">研究論文</span><span
+                            class="output-tag">査読有り</span><span class="output-tag">筆頭著者</span><span
+                            class="output-tag">受賞</span>
+                    </div>
+                </button>
+            </div>
+            <div class="output-group">
+                <h3>国際会議発表</h3>
+                <button class="output-item" data-research-modal="intl-00"> <span class="output-year">2025</span>
+                    <span class="output-main"> <span class="output-title">Towards Wearable-Free Exergame for Orthostatic
+                            Dysregulation: Improving Motion Detection with Smartphone-Only
+                            Calibration</span>
+                        <span class="output-meta">Hitomi Miyazaki, Saki Sakaguchi, Tetsuaki Baba, Kumiko Kushiyama /
+                            SIGGRAPH Asia 2025 / Hong Kong</span> </span>
+                    <div class="output-tags"><span class="output-tag">ポスター</span><span
+                            class="output-tag">査読有り</span><span class="output-tag">筆頭著者</span>
+                    </div>
+                </button>
+                <button class="output-item" data-research-modal="intl-01"> <span class="output-year">2024</span>
+                    <span class="output-main"> <span class="output-title">Impact of Level-up Element in Development of
+                            Exergame for Preventing Prolonged Orthostatic Dysregulation</span>
+                        <span class="output-meta">Hitomi Miyazaki, Wataru Kurihara, Xu Han, Saki Sakaguchi, Mina
+                            Shibasaki, Kumiko Kushiyama /
+                            ASSETS 2024 / St. John's</span> </span>
+                    <div class="output-tags"><span class="output-tag">ポスター</span><span
+                            class="output-tag">査読有り</span><span class="output-tag">筆頭著者</span>
+                    </div>
+                </button>
+                <button class="output-item" data-research-modal="intl-02"> <span class="output-year">2024</span>
+                    <span class="output-main"> <span class="output-title">Development of Exergame to Resolve
+                            Deconditioning in Children with Orthostatic Dysregulation</span>
+                        <span class="output-meta">Hitomi Miyazaki, Wataru Kurihara, Xu Han, Saki Sakaguchi, Kumiko
+                            Kushiyama /
+                            SIGGRAPH 2022 / Vancouver</span> </span>
+                    <div class="output-tags"><span class="output-tag">ポスター</span><span
+                            class="output-tag">査読有り</span><span class="output-tag">筆頭著者</span>
+                    </div>
+                </button>
+            </div>
+            <div class="output-group">
+                <h3>国内会議発表</h3>
+                <button class="output-item" data-research-modal="domestic-00"> <span class="output-year">2025</span>
+                    <span class="output-main"> <span
+                            class="output-title">起立性調節障害患者の運動を促すシリアスゲーム開発における多周波数超音波センシングを用いたスマートフォン単体での下肢運動検出の検討</span>
+                        <span class="output-meta">宮崎 仁美, 阪口 紗季, 馬場 哲晃, 串山 久美子 / DCC研究会 (CGVI/CVIM/DCC/PRMU共催) /
+                            松江テルサ</span> </span>
+                    <div class="output-tags"><span class="output-tag">口頭発表</span><span
+                            class="output-tag">筆頭著者</span><span class="output-tag">受賞</span>
+                    </div>
+                </button>
+                <button class="output-item" data-research-modal="domestic-02"> <span class="output-year">2025</span>
+                    <span class="output-main"> <span class="output-title">凹凸触覚ブロックを用いた２人協力型情報伝達ゲームの提案</span>
+                        <span class="output-meta">佐藤 陽菜, 水田 愛梨, 黒田 清音,宮崎 仁美, 韓 旭, 串山 久美子 / インタラクション2025 /
+                            学術総合センター内 一橋講堂</span> </span>
+                    <div class="output-tags"><span class="output-tag">デモ発表</span><span class="output-tag">査読有り</span>
+                    </div>
+                </button>
+                <button class="output-item" data-research-modal="domestic-03"> <span class="output-year">2025</span>
+                    <span class="output-main"> <span class="output-title">SNS利用者間の対面コミュニケーションを促進するカード型ウェアラブル端末の提案</span>
+                        <span class="output-meta">白石 快，藤田 真衣，朴 エリヤ，宮崎 仁美，韓 旭，串山 久美子 / インタラクション2025 /
+                            学術総合センター内 一橋講堂</span> </span>
+                    <div class="output-tags"><span class="output-tag">デモ発表</span><span class="output-tag">査読有り</span>
+                    </div>
+                </button>
+                <button class="output-item" data-research-modal="domestic-04"> <span class="output-year">2025</span>
+                    <span class="output-main"> <span class="output-title">
+                            指紋の多様性を可聴化した演奏システムの制作</span>
+                        <span class="output-meta">
+                            髙見 明花, 辻村 アレクシ 健, 大野 充樹, 宮崎 仁美，韓 旭，串山 久美子 / インタラクション2025 /
+                            学術総合センター内 一橋講堂</span> </span>
+                    <div class="output-tags"><span class="output-tag">デモ発表</span><span class="output-tag">査読有り</span>
+                    </div>
+                </button>
+                <button class="output-item" data-research-modal="domestic-05"> <span class="output-year">2025</span>
+                    <span class="output-main"> <span class="output-title">
+                            クロスモーダル効果を用いた日本酒の飲酒体験に変化を与えるコースター型デバイスの提案</span>
+                        <span class="output-meta">
+                            中原 麻結，高橋 陽祐，峪 紳大朗，宮崎 仁美，韓 旭，串山 久美子 / インタラクション2025 /
+                            学術総合センター内 一橋講堂</span> </span>
+                    <div class="output-tags"><span class="output-tag">デモ発表</span><span class="output-tag">査読有り</span>
+                    </div>
+                </button>
+                <button class="output-item" data-research-modal="domestic-06"> <span class="output-year">2025</span>
+                    <span class="output-main"> <span class="output-title">
+                            メカニカルな要素を柔らかな素材に置き換えたぬいぐるみ型電子工作玩具の提案</span>
+                        <span class="output-meta">
+                            古田ゆい, 阪口紗季, 柴﨑美奈, 韓旭, 宮崎仁美, 串山久美子 / インタラクション2025 /
+                            学術総合センター内 一橋講堂</span> </span>
+                    <div class="output-tags"><span class="output-tag">デモ発表</span><span class="output-tag">査読有り</span>
+                    </div>
+                </button>
+                <button class="output-item" data-research-modal="domestic-06"> <span class="output-year">2023</span>
+                    <span class="output-main"> <span
+                            class="output-title">起立性調節障害の長期化防止に向けたシリアスゲーム制作におけるプレイヤーのレベルアップ要素が与える影響の検証</span>
+                        <span class="output-meta">宮崎 仁美, 栗原 渉, 韓 旭, 阪口 紗季, 串山 久美子 / EC2023 / 東京工科大学</span> </span>
+                    <div class="output-tags"><span class="output-tag">口頭発表</span><span
+                            class="output-tag">筆頭著者</span><span class="output-tag">受賞</span>
+                    </div>
+                </button>
+                <button class="output-item" data-research-modal="domestic-07"> <span class="output-year">2021</span>
+                    <span class="output-main"> <span class="output-title">起立性調節障害の長期化防止に向けたシリアスゲームの提案</span>
+                        <span class="output-meta">宮崎 仁美, 栗原 渉, 韓 旭, 串山 久美子 / EC2021 / オンライン</span> </span>
+                    <div class="output-tags"><span class="output-tag">口頭発表</span><span class="output-tag">筆頭著者</span>
+                    </div>
+                </button>
+                <button class="output-item" data-research-modal="domestic-08"> <span class="output-year">2021</span>
+                    <span class="output-main"> <span class="output-title">音を蓄積するゴミ箱カバー型デバイスを利用したゴミを捨てたくなる仕掛けの提案</span>
+                        <span class="output-meta">宮崎 仁美，小松 伸之輔，栗原 渉，有山 大地，串山 久美子 / インタラクション2021 / オンライン</span> </span>
+                    <div class="output-tags"><span class="output-tag">デモ発表</span><span
+                            class="output-tag">査読有り</span><span class="output-tag">筆頭著者</span>
+                    </div>
+                </button>
+            </div>
+            <div class="output-group">
+                <h3>受賞</h3>
+                <a class="output-item" href="https://www.ipsj.or.jp/award/ssp_award.html" target="_blank" rel="noopener"
+                    data-modal="award-00"> <span class="output-year">2025</span>
+                    <span class="output-main"> <span class="output-title">情報処理学会論文誌ジャーナル/JIP特選論文</span> <span
+                            class="output-meta">起立性調節障害患者を対象にした運動への意識向上のためのシリアスゲーム開発
+                            / 情報処理学会 / 宮崎 仁美, 阪口 紗季, 栗原 渉, 韓 旭, 串山 久美子</span> </span>
+                    <span class="external-icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M14 5H19V10" />
+                            <path d="M10 14L19 5" />
+                            <path d="M19 14V19H5V5H10" />
+                        </svg>
+                    </span>
+                </a>
+                <a class="output-item" href="https://www.ipsj.or.jp/award/dcc-award1.html" target="_blank"
+                    rel="noopener" data-modal="award-00"> <span class="output-year">2025</span>
+                    <span class="output-main"> <span class="output-title">優秀賞</span> <span
+                            class="output-meta">起立性調節障害患者の運動を促すシリアスゲーム開発における多周波数超音波センシングを用いたスマートフォン単体での下肢運動検出の検討
+                            /<br>第41回 DCC研究会 (CGVI/CVIM/DCC/PRMU共催) / 宮崎 仁美, 阪口 紗季, 馬場 哲晃, 串山 久美子</span> </span>
+                    <span class="external-icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M14 5H19V10" />
+                            <path d="M10 14L19 5" />
+                            <path d="M19 14V19H5V5H10" />
+                        </svg>
+                    </span>
+                </a>
+                <a class="output-item" href="https://cgvi.jp/info/bestpapers/" target="_blank" rel="noopener"
+                    data-modal="award-00"> <span class="output-year">2025</span>
+                    <span class="output-main"> <span class="output-title">優秀研究発表賞</span> <span
+                            class="output-meta">起立性調節障害患者の運動を促すシリアスゲーム開発における多周波数超音波センシングを用いたスマートフォン単体での下肢運動検出の検討
+                            /<br> 第200回 CGVI研究会 (CGVI/CVIM/DCC/PRMU共催)</span> </span>
+                    <span class="external-icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M14 5H19V10" />
+                            <path d="M10 14L19 5" />
+                            <path d="M19 14V19H5V5H10" />
+                        </svg>
+                    </span>
+                </a>
+                <a class="output-item" href="https://ec2023.entcomp.org/award.html" target="_blank" rel="noopener"
+                    data-modal="award-00"> <span class="output-year">2023</span>
+                    <span class="output-main"> <span class="output-title">ティザー優秀賞</span> <span
+                            class="output-meta">起立性調節障害の長期化防止に向けたシリアスゲーム制作におけるプレイヤーのレベルアップ要素が与える影響の検証
+                            / EC2023</span> </span>
+                    <span class="external-icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M14 5H19V10" />
+                            <path d="M10 14L19 5" />
+                            <path d="M19 14V19H5V5H10" />
+                        </svg>
+                    </span>
+                </a>
+                <a class="output-item" href="https://ec2023.entcomp.org/award.html" target="_blank" rel="noopener"
+                    data-modal="award-00"> <span class="output-year">2023</span>
+                    <span class="output-main"> <span class="output-title">一般セッション 最優秀研究賞</span> <span
+                            class="output-meta">起立性調節障害の長期化防止に向けたシリアスゲーム制作におけるプレイヤーのレベルアップ要素が与える影響の検証
+                            / EC2023</span> </span>
+                    <span class="external-icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M14 5H19V10" />
+                            <path d="M10 14L19 5" />
+                            <path d="M19 14V19H5V5H10" />
+                        </svg>
+                    </span>
+                </a>
+            </div>
+            <div class="output-group">
+                <h3>研究助成金等</h3>
+                <a class="output-item" hrf="https://research-miyacology.tmu.ac.jp/oecd/miyako-mirai/" target="_blank"
+                    rel="noopener" data-modal="grand-01"> <span class="output-year">2025-継続中</span>
+                    <span class="output-main"> <span class="output-title">東京都立大学みやこMIRAIプロジェクト　区分2</span>
+                        <span class="output-meta">東京都立大学</span></span>
+                    <span class="external-icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M14 5H19V10" />
+                            <path d="M10 14L19 5" />
+                            <path d="M19 14V19H5V5H10" />
+                        </svg>
+                    </span>
+                </a>
+                <a href="https://research-miyacology.tmu.ac.jp/oecd/spring/" target="_blank" rel="noopener"
+                    class="output-item" data-modal="grand-00"> <span class="output-year">2024-継続中</span>
+                    <span class="output-main"> <span class="output-title">領域リフレーミング（Arena
+                            Reframing：AR）双対型博士人材育成プロジェクト</span> <span class="output-meta">JST次世代研究者挑戦的研究プログラムJPMJSP2156
+                            / 東京都立大学</span> </span>
+                    <span class="external-icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M14 5H19V10" />
+                            <path d="M10 14L19 5" />
+                            <path d="M19 14V19H5V5H10" />
+                        </svg>
+                    </span>
+                </a>
+                <a href="https://www.candc.or.jp/jyosei/jyosei_kokusai.html" target="_blank" rel="noopener"
+                    class="output-item" data-modal="grand-02"> <span class="output-year">2024</span>
+                    <span class="output-main"> <span class="output-title">NEC C&C財団 国際会議論文発表者助成</span> <span
+                            class="output-meta">NEC C&C財団 2024年度後期国際会議論文発表者助成</span> </span>
+                    <span class="external-icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M14 5H19V10" />
+                            <path d="M10 14L19 5" />
+                            <path d="M19 14V19H5V5H10" />
+                        </svg>
+                    </span>
+                </a>
+            </div>
+        </section>
+
+        <section class="projects" id="projectswork">
+            <h2 class="section-title">Project Collection</h2>
+            <div class="project-grid">
+                <button class="project-card" data-modal="project-00">
+                    <img src="img/icsaf.JPG" alt=""><span class="project-body">
+                        <span class="project-year">2022</span>
+                        <span class="project-title">アドベントカレンダーあけほうだい</span>
+                        <span class="project-tags">
+                            <span>インタラクティブコンテンツ</span><span>グループ制作</span></span></span>
+                </button>
+                <button class="project-card" data-modal="project-01"><img src="img/kagee.JPG" alt="">
+                    <span class="project-body"><span class="project-year">2022</span><span
+                            class="project-title">影絵バトル</span>
+                        <span class="project-tags">
+                            <span>インタラクティブコンテンツ</span><span>グループ制作</span></span></span>
+                </button>
+                <button class="project-card" data-modal="project-02">
+                    <img src="img/teckzines.png" alt=""><span class="project-body">
+                        <span class="project-year">2020, 2021</span>
+                        <span class="project-title">技術同人誌の発行</span>
+                        <span class="project-tags">
+                            <span>技術同人誌</span><span>グループ制作</span></span></span>
+                </button>
+                <button class="project-card" data-modal="project-03">
+                    <img src="img/NIF2020_F-1.jpg" alt=""><span class="project-body">
+                        <span class="project-year">2020</span>
+                        <span class="project-title">感覚鈍麻障害者のための匂いチェッカーの提案</span>
+                        <span class="project-tags">
+                            <span>デバイス</span><span>グループ制作</span></span></span>
+                </button>
+                <button class="project-card" data-modal="project-04"><img src="img/pm01.jpg" alt="">
+                    <span class="project-body"><span class="project-year">2019</span><span
+                            class="project-title">みやこ祭2019 Projection Mapping</span>
+                        <span class="project-tags">
+                            <span>映像作品</span> <span>グループ制作</span></span></span>
+                </button>
+                <button class="project-card" data-modal="project-05"><img src="img/mike.JPG" alt="">
+                    <span class="project-body"><span class="project-year">2019</span><span class="project-title">
+                            いきものみっけ！</span>
+                        <span class="project-tags">
+                            <span>ワークショップ</span> <span>グループ制作</span></span></span>
+                </button>
+                <button class="project-card" data-modal="project-06"><img src="img/kanban.jpg" alt="">
+                    <span class="project-body"><span class="project-year">2018-2023</span><span class="project-title">
+                            大学ボランティアセンターでの活動</span>
+                        <span class="project-tags">
+                            <span>グラフィックデザイン</span> <span>グループ制作</span></span></span>
+                </button>
+                <button class="project-card" data-modal="project-07"><img src="img/lifegame.png" alt="">
+                    <span class="project-body"><span class="project-year">2018-</span><span class="project-title">
+                            Creative Coding Works</span>
+                        <span class="project-tags">
+                            <span>メディアアート</span><span>個人制作</span></span></span>
+                </button>
+            </div>
+        </section>
+
+        <section class="profile-section" id="profile">
+            <h2 class="section-title">Profile</h2>
+            <div class="profile-grid">
+                <div class="profile-group">
+                    <h3>経歴</h3>
+                    <ul class="profile-list">
+                        <p class="profile-intro">
+                            1999年生まれ、神奈川県出身。
+                        </p>
+                        <li><span class="profile-year">2022</span><span
+                                class="profile-text">東京都立大学システムデザイン学部インダストリアルアート学科
+                                卒業</span></li>
+                        <li><span class="profile-year">2024</span><span
+                                class="profile-text">東京都立大学大学院システムデザイン研究科インダストリアルアート学域
+                                <br>博士前期課程 修了　修士（芸術工学）</span></li>
+                        <li><span class="profile-year">2024-</span><span
+                                class="profile-text">東京都立大学大学院システムデザイン研究科インダストリアルアート学域
+                                <br>博士後期課程</span></li>
+                    </ul>
+                </div>
+                <div class="profile-group">
+                    <h3>所属学会</h3>
+                    <ul class="profile-list-simple">
+                        <li>情報処理学会</li>
+                        <li>ACM</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contactform">
+            <h2 class="section-title">Contact</h2>
+            <form class="contact-form" id="contact-form" action="https://formspree.io/f/mlgkkrzp" method="POST">
+                <div class="form-row">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-row">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-row">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="contact-submit">Send</button>
+                <p class="form-status" id="form-status"></p>
+            </form>
+            <p class="contact-note"> Alternatively: miyazaki-hitomi [at] tmu.ac.jp </p>
+        </section>
+
+        <div class="research-modal" id="research-modal">
+            <div class="research-modal-bg"></div>
+            <div class="research-modal-panel">
+                <button class="research-modal-close">×</button>
+                <div class="research-modal-content">
+                    <div class="research-modal-header">
+                        <div class="research-modal-category"></div>
+                        <div class="research-modal-tags"></div>
+                    </div>
+                    <!-- <div class="research-modal-category"></div> -->
+                    <h3 class="research-modal-title"></h3>
+                    <!-- <div class="research-modal-tags"></div> -->
+                    <dl class="research-modal-info"></dl>
+                    <div class="research-modal-links"></div>
+                    <div class="research-modal-body">
+                        <div class="research-modal-image"></div>
+                        <div>
+                            <h4 class="research-modal-subtitle">Abstract</h4>
+                            <p class="research-modal-text"></p>
+                        </div>
+                    </div>
+                    <!-- <div class="research-modal-links"></div> -->
+                </div>
+                <div class="research-modal-footer-nav">
+                    <button class="research-item-prev">← Prev</button>
+                    <button class="research-item-next">Next →</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="work-modal" id="work-modal">
+            <div class="work-modal-bg"></div>
+            <div class="work-modal-panel">
+                <button class="work-modal-close">×</button>
+                <div class="work-modal-gallery">
+                    <button class="work-gallery-nav work-gallery-prev">‹</button>
+                    <div class="work-modal-slides"></div>
+                    <button class="work-gallery-nav work-gallery-next">›</button>
+                    <div class="work-modal-dots"></div>
+                </div>
+                <div class="work-modal-content">
+                    <h3 class="work-modal-title"></h3>
+                    <div class="work-modal-tags"></div>
+                    <dl class="work-modal-info"></dl>
+                    <p class="work-modal-text"></p>
+                    <div class="work-modal-links"></div>
+                </div>
+                <div class="work-modal-footer-nav">
+                    <button class="work-item-prev">← Prev</button>
+                    <button class="work-item-next">Next →</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>
+            © 2026 Hitomi Miyazaki. All rights reserved.
+        </p>
+    </footer>
+    <template id="external-icon-template">
+        <span class="external-icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M14 5H19V10" />
+                <path d="M10 14L19 5" />
+                <path d="M19 14V19H5V5H10" />
+            </svg>
+        </span>
+    </template>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
