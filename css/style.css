@@ -1761,3 +1761,35 @@ body.modal-open {
     color: #888 !important;
     -webkit-text-fill-color: #888;
 }
+
+.output-item,
+.project-card {
+    -webkit-appearance: none;
+    appearance: none;
+    color: #222 !important;
+}
+
+.output-item span,
+.output-item div,
+.project-card span,
+.project-card div {
+    color: inherit !important;
+    -webkit-text-fill-color: currentColor !important;
+}
+
+.output-title,
+.project-title {
+    color: #222 !important;
+    -webkit-text-fill-color: #222 !important;
+}
+
+.output-meta {
+    color: #888 !important;
+    -webkit-text-fill-color: #888 !important;
+}
+
+.output-tag,
+.project-tags span {
+    color: #555 !important;
+    -webkit-text-fill-color: #555 !important;
+}
