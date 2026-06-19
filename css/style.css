@@ -1738,13 +1738,26 @@ body.modal-open {
 .project-card:link,
 .project-card:visited,
 .project-card:hover,
-.project-card:active,
-.output-title,
-.project-title {
+.project-card:active {
     color: inherit;
 }
 
+.output-item,
 .output-item *,
+.project-card,
 .project-card * {
-    color: inherit;
+    color: inherit !important;
+    -webkit-text-fill-color: currentColor;
+}
+
+.output-title,
+.project-title {
+    color: #222 !important;
+    -webkit-text-fill-color: #222;
+}
+
+.output-meta,
+.project-year {
+    color: #888 !important;
+    -webkit-text-fill-color: #888;
 }
